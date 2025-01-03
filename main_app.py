@@ -39,4 +39,4 @@ if submit:
         #Make Prediction
         Y_pred = model.predict(opencv_image)
         result = CLASS_NAMES[np.argmax(Y_pred)]
-        st.title(str("This is "+result.split('-')[0]+ " leaf with " +  result.split('-')[1]))
+        st.title(str("This is "+result.split('-')[0]+ " leaf with the" +  result.split('-')[1]))
